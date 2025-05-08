@@ -165,27 +165,35 @@ display: block;
 
 .banner {
     background: #2e2f42;
-        padding: 188px 0;
+        padding: 72px 0;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-        max-width: 1440px;
+            rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mob@1x.jpg);
+        max-width: 320px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         margin: 0 auto;}
 
+@media screen and (min-resolution: 192dpi) {
+  .banner {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mob2@2x.jpg);
+           } 
+ }
+
 .main-title {
-    max-width: 496px;
+    max-width: 216px;
         font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
+        font-size: 36px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 48px;
+        padding-bottom: 72px;
 }
+
 
 .service-button {
     font-family: "Roboto", sans-serif;
@@ -213,7 +221,61 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
     background: #404bbf;
 }
 
+/* desktop banner */
 
+@media only screen and (max-width: 1158px) {
+.banner {
+        max-width: 1440px;
+        padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/people-office@1x.jpg);
+        
+         }
+
+         
+@media screen and (min-resolution: 192dpi) {
+.banner {
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/people-office2des@2x.jpg);
+
+    } 
+}
+
+.main-title {
+                max-width: 496px;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 1.07;
+                padding-bottom: 48px; }
+}
+
+/* Tab banner */
+
+@media only screen and (max-width: 758px) {
+    .banner {
+
+        padding: 112px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab@1x.jpg);
+        max-width: 768px;
+
+    }
+
+        .main-title {
+            max-width: 496px;
+            font-size: 56px;
+            line-height: 1.07;
+            padding-bottom: 72px;
+        }
+
+                @media screen and (min-resolution: 192dpi) {
+          .banner {
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+           rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab2@2x.jpg);
+    
+        }
+      }
+}
 
 /*benefits*/
 
@@ -569,6 +631,24 @@ position: absolute;
 {
     transform: translateY(0%);
 }
+
+/* Portfolio desk */
+
+@media only screen and (min-width: 1158px) {
+
+
+
+
+}
+
+/* Portfolio Tab */
+
+@media only screen and (min-width: 768px) {
+
+
+    
+}
+
 
 
 /*Footer*/
