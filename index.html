@@ -18,7 +18,7 @@
 <body>
 
     <!--Header-->
-   <!-- <header class="header-box">
+    <header class="header-box">
         <div class="container header-container">
             <nav class="header-nav">
         <a href="./index.html" class="logo-color">Web<span class="logo">Studio</span></a>
@@ -37,8 +37,15 @@
                 <li><a href="tel:+110001111111" class="contacts-block-list">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        <button type="button" class="burger-btn">
+             
+                <svg width="16" height="18">
+                    <use href="./images/icons.svg#icon-burger-menu"></use>
+                </svg>
+            </div>
+        </button>
         </div>
-           </header> -->
+           </header> 
     <main>
         
 
@@ -108,17 +115,11 @@
 
             <ul class="our-team-container-block">
                 <li class="our-team-foto-block">
-                    <picture>
-                        <source srcset="./images/img-team-Mark@1x.jpg 1x, ./images/img-team-Mark2@2x.jpg 2x" 
-                        media="(min-width: 1158px)" />
-                        <source srcset="./images/img-team-Mark@1x.jpg 1x, ./images/img-team-Mark2@2x.jpg 2x" 
-                        media="(min-width: 768px)" />
-                        <source srcset="./images/img-team-Mark@1x.jpg 1x, ./images/img-team-Mark2@2x.jpg 2x"
-                         media="(max-width: 767px)" />
-                        <img src="./images/img-team-Mark@1x.jpg" alt="man with beard">
-
-                    </picture>
-
+                    <img src="./images/img-team-Mark.jpg" alt="man with beard"
+                        srcset="./images/img-team-Mark.jpg 1x, ./images/img-team-Mark2@2x.jpg 2x" 
+                        width="264" height="260"/>
+                        
+                
                   <div class="our-team-box"> 
                     <h3 class="team-name-title">Mark Guerrero</h3>
 
@@ -159,16 +160,11 @@
                 </li>
 
                 <li class="our-team-foto-block">
-                    <picture>
-                        <source srcset="./images/img-team-Tom@1x.jpg 1x, ./images/img-team-Tom2@2x.jpg 2x"
-                            media="(min-width: 1158px)" />
-                        <source srcset="./images/img-team-Tom@1x.jpg 1x, ./images/img-team-Tom2@2x.jpg 2x" 
-                        media="(min-width: 768px)" />
-                        <source srcset="./images/img-team-Tom@1x.jpg 1x, ./images/img-team-Tom2@2x.jpg 2x" 
-                        media="(max-width: 767px)" />
-                        <img src="./images/img-team-Tom@1x.jpg" alt="smiling man">
-                    
-                    </picture>
+                <img src="./images/img-team-Tom.jpg" alt="man smailing"
+                    srcset="./images/img-team-Tom.jpg 1x, 
+                    ./images/img-team-Tom2@2x.jpg 2x" 
+                    width="264"
+                    height="260" />
 
                     <div class="our-team-box">
                     <h3 class="team-name-title">Tom Ford</h3>
@@ -209,16 +205,10 @@
                 </li>
 
                 <li class="our-team-foto-block">
-                    <picture>
-                        <source srcset="./images/img-team-Camila@1x.jpg 1x, ./images/img-team-Camila2@2x.jpg 2x" 
-                        media="(min-width: 1158px)" />
-                        <source srcset="./images/img-team-Camila@1x.jpg 1x, ./images/img-team-Camila2@2x.jpg 2x"
-                         media="(min-width: 768px)" />
-                        <source srcset="./images/img-team-Camila@1x.jpg 1x, ./images/img-team-Camila2@2x.jpg 2x" 
-                        media="(max-width: 767px)" />
-                        <img src="./images/img-team-Camila@1x.jpg" alt="woman in pink sweater">
-                    
-                    </picture>
+                    <img src="./images/img-team-Camila.jpg" alt="young women in pink sweater" 
+                    srcset="./images/img-team-Camila.jpg 1x, 
+                   ./images/img-team-Camila2@2x.jpg 2x" 
+                   width="264" height="260" />
 
 
 
@@ -262,16 +252,10 @@
 
                 <li class="our-team-foto-block">
 
-                    <picture>
-                        <source srcset="./images/img-team-Dan@1x.jpg 1x, ./images/img-team-Dan2@2x.jpg 2x"
-                            media="(min-width: 1158px)" />
-                        <source srcset="./images/img-team-Dan@1x.jpg 1x, ./images/img-team-Dan2@2x.jpg 2x"
-                            media="(min-width: 768px)" />
-                        <source srcset="./images/img-team-Dan@1x.jpg 1x, ./images/img-team-Dan2@2x.jpg 2x"
-                            media="(max-width: 767px)" />
-                        <img src="./images/img-team-Dan@1x.jpg"alt="man in grey t-shirt">
-                    
-                    </picture>
+                    <img src="./images/img-team-Dan.jpg" alt="man in grey T-shirt"
+                     srcset="./images/img-team-Dan.jpg 1x, 
+                    ./images/img-team-Dan2@2x.jpg 2x" width="264" height="260" />
+
 
                     <div class="our-team-box">
                     <h3 class="team-name-title">Daniel Wilson</h3>
@@ -326,11 +310,11 @@
                 <li class="portfolio-item-list">
                     <div class="portfolio-overlay">
                         <picture>
-                            <source srcset="./images/image-portfolio1dt.jpg 1x, ./images/image-portfolio1dt2.jpg 2x"
+                            <source srcset="./images/image-portfolio1dt.jpg 1x, ./images/image-portfolio1dt2@2x.jpg 2x"
                             media="(min-width: 1158px)" />
-                            <source srcset="./images/image-portfolio1tab.jpg 1x, ./images/image-portfolio1tab2.jpg 2x" 
+                            <source srcset="./images/image-portfolio1tab.jpg 1x, ./images/image-portfolio1tab2@2x.jpg 2x" 
                             media="(min-width: 768px)" />
-                            <source srcset="./images/image-portfolio1mob.jpg 1x, ./images/image-portfolio1mob2.jpg 2x" 
+                            <source srcset="./images/image-portfolio1mob.jpg 1x, ./images/image-portfolio1mob2@2x.jpg 2x" 
                             media="(max-width: 767px)" />
                             <img src="./images/image-portfolio1dt.jpg" alt="banking app">
                         
@@ -352,11 +336,11 @@
                 <li class="portfolio-item-list">
                     <div class="portfolio-overlay">
                         <picture>
-                            <source srcset="./images/image-portfolio2dt.jpg 1x, ./images/image-portfolio2dt2.jpg 2x"
+                            <source srcset="./images/image-portfolio2dt.jpg 1x, ./images/image-portfolio2dt2@2x.jpg 2x"
                                 media="(min-width: 1158px)" />
-                            <source srcset="./images/image-portfolio2tab.jpg 1x, ./images/image-portfolio2tab2.jpg 2x"
+                            <source srcset="./images/image-portfolio2tab.jpg 1x, ./images/image-portfolio2tab2@2x.jpg 2x"
                                 media="(min-width: 768px)" />
-                            <source srcset="./images/image-portfolio2mob.jpg 1x, ./images/image-portfolio2mob2.jpg 2x"
+                            <source srcset="./images/image-portfolio2mob.jpg 1x, ./images/image-portfolio2mob2@2x.jpg 2x"
                                 media="(max-width: 767px)" />
                             <img src="./images/image-portfolio2dt.jpg" alt="smartphone with pay app">
                         </picture>
@@ -375,11 +359,11 @@
                 <li class="portfolio-item-list">
                     <div class="portfolio-overlay">
                         <picture>
-                            <source srcset="./images/image-portfolio3dt.jpg 1x, ./images/image-portfolio3dt2.jpg 2x"
+                            <source srcset="./images/image-portfolio3dt.jpg 1x, ./images/image-portfolio3dt2@2x.jpg 2x"
                                 media="(min-width: 1158px)" />
-                            <source srcset="./images/image-portfolio3tab.jpg 1x, ./images/image-portfolio3tab2.jpg 2x"
+                            <source srcset="./images/image-portfolio3tab.jpg 1x, ./images/image-portfolio3tab2@2x.jpg 2x"
                                 media="(min-width: 768px)" />
-                            <source srcset="./images/image-portfolio3mob.jpg 1x, ./images/image-portfolio3mob2.jpg 2x"
+                            <source srcset="./images/image-portfolio3mob.jpg 1x, ./images/image-portfolio3mob2@2x.jpg 2x"
                                 media="(max-width: 767px)" />
                             
                             <img src="./images/image-portfolio3dt.jpg" alt="smartphone and laptop with Meditation App">
@@ -401,11 +385,11 @@
                 <li class="portfolio-item-list">
                     <div class="portfolio-overlay">
                     <picture>
-                        <source srcset="./images/image-portfolio4dt.jpg 1x, ./images/image-portfolio4dt2.jpg 2x"
+                        <source srcset="./images/image-portfolio4dt.jpg 1x, ./images/image-portfolio4dt2@2x.jpg 2x"
                             media="(min-width: 1158px)" />
-                        <source srcset="./images/image-portfolio4tab.jpg 1x, ./images/image-portfolio4tab2.jpg 2x"
+                        <source srcset="./images/image-portfolio4tab.jpg 1x, ./images/image-portfolio4tab2@2x.jpg 2x"
                             media="(min-width: 768px)" />
-                        <source srcset="./images/image-portfolio4mob.jpg 1x, ./images/image-portfolio4mob2.jpg 2x"
+                        <source srcset="./images/image-portfolio4mob.jpg 1x, ./images/image-portfolio4mob2@2x.jpg 2x"
                             media="(max-width: 767px)" />
                     <img src="./images/image-portfolio4dt.jpg" alt="taxi car">
                       
@@ -425,11 +409,11 @@
                 <li class="portfolio-item-list">
                     <div class="portfolio-overlay">
                         <picture>
-                            <source srcset="./images/image-portfolio5dt.jpg 1x, ./images/image-portfolio5dt2.jpg 2x"
+                            <source srcset="./images/image-portfolio5dt.jpg 1x, ./images/image-portfolio5dt2@2x.jpg 2x"
                                 media="(min-width: 1158px)" />
-                            <source srcset="./images/image-portfolio5tab.jpg 1x, ./images/image-portfolio5tab2.jpg 2x"
+                            <source srcset="./images/image-portfolio5tab.jpg 1x, ./images/image-portfolio5tab2@2x.jpg 2x"
                                 media="(min-width: 768px)" />
-                            <source srcset="./images/image-portfolio5mob.jpg 1x, ./images/image-portfolio5mob2.jpg 2x"
+                            <source srcset="./images/image-portfolio5mob.jpg 1x, ./images/image-portfolio5mob2@2x.jpg 2x"
                                 media="(max-width: 767px)" />
                             
                         <img src="./images/image-portfolio5dt.jpg" alt="Screen Illustrations">
@@ -449,11 +433,11 @@
                 <li class="portfolio-item-list"> 
                     <div class="portfolio-overlay">
                         <picture>
-                            <source srcset="./images/image-portfolio6dt.jpg 1x, ./images/image-portfolio6dt2.jpg 2x"
+                            <source srcset="./images/image-portfolio6dt.jpg 1x, ./images/image-portfolio6dt2@2x.jpg 2x"
                                 media="(min-width: 1158px)" />
-                            <source srcset="./images/image-portfolio6tab.jpg 1x, ./images/image-portfolio6tab2.jpg 2x"
+                            <source srcset="./images/image-portfolio6tab.jpg 1x, ./images/image-portfolio6tab2@2x.jpg 2x"
                                 media="(min-width: 768px)" />
-                            <source srcset="./images/image-portfolio6mob.jpg 1x, ./images/image-portfolio6mob2.jpg 2x"
+                            <source srcset="./images/image-portfolio6mob.jpg 1x, ./images/image-portfolio6mob2@2x.jpg 2x"
                                 media="(max-width: 767px)" />
                         <img src="./images/image-portfolio6dt.jpg" alt="young women in yellow sweater">
                          </picture>
@@ -563,13 +547,13 @@ id="user-email"
 
         </footer>
 
-        <!--Modal window -->
+        <!-- Modal window -->
         
-        <!-- <div class="modal-overlay is-open">
+     <div class="modal-overlay modal-is-open">
         
             <div class="modal">
         
-                <button class="modal-close-btn" type="button">
+                <button class="close-btn" type="button">
                     <svg class="modal-icons-close" width="8" height="8">
                         <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                     </svg>
@@ -653,7 +637,65 @@ id="user-email"
                 </form>
             </div>
         
-        </div> -->
+        </div>
 
+
+        <!-- Mobile menu -->
+
+    <div class="mobile-menu mob-is-open">
+
+        <div class="header-mobile-menu">
+
+<button type="button" class="close-btn menu-close-btn">
+    <svg class="modal-icons-close" width="8" height="8">
+        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+    </svg>
+</button>
+<ul class="mob-menu-list">
+    <li><a href="./index.html">Studio</a></li>
+    <li><a href="">Portfolio</a></li>
+    <li><a href="">Contacts</a></li>
+</ul>
+    <ul class="mob-contacts-list">
+        <li>
+        <a href="tel:+110001111111" class="contacts-block-list">+11 (000) 111-11-11</a>
+    </li>
+        <li>
+            <a href="mailto:info@devstudio.com" class="contacts-block-list">info@devstudio.com</a>
+        </li>
+        
+    </ul>
+
+
+<ul class="social-icons-mob">
+    <li class="social-icons-list">
+        <a class="social-icons-link" href="">
+            <svg class="social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-insta"></use>
+            </svg></a>
+    </li>
+    
+    <li class="social-icons-list">
+        <a class="social-icons-link" href="">
+            <svg class="social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+            </svg></a>
+    </li>
+    
+    <li class="social-icons-list">
+        <a class="social-icons-link" href="">
+            <svg class="social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+            </svg></a>
+    </li>
+    
+    <li class="social-icons-list">
+        <a class="social-icons-link" href="">
+            <svg class="social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-in"></use>
+            </svg></a>
+    </ul>
+        </div>
+    </div>
     </body>
 </html>
