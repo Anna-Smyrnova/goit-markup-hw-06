@@ -277,6 +277,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         text-align: center;
         color: #fff;
         background: #4d5ae5;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
        display: block;
         border-radius: 4px;
         min-width: 169px;
